@@ -11,6 +11,8 @@ public class Runner {
         list.insertAt(8,6556);
         list.insertAt(9,9596);
 
+        list.deleteLast();
+
         list.show();
         System.out.println("Total size of the list is "+list.size());
     }
