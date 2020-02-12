@@ -23,15 +23,55 @@ public class SingleLinkedList {
         }
     }
     public void insertAt(int index,int data){
-        Node node = new Node();
-        node.setData(data);
 
-        Node tmp = head;
-        for (int i = 0; i < index-1-1; i++) {
-            tmp = tmp.getNext();
+        if(index>this.size()+1 || index<0){
+            System.out.println("Out of range");
         }
-        node.setNext(tmp.getNext());
-        tmp.setNext(node);
+        else if(index==1){
+            Node node = new Node();
+            node.setData(data);
+            node.setNext(head);
+            head = node;
+            // Or we can call insertAtStart() method
+            // this.insertAtStart(data);
+        }
+        else if(index==this.size()+1)
+            this.insertAtLast(data); // index value is size+1 then we insert the node at last
+        else{
+            Node node = new Node();
+            node.setData(data);
+            Node tmp = head;
+            for (int i = 1; i < index-1; i++) {
+                tmp = tmp.getNext();
+            }
+            node.setNext(tmp.getNext());
+            tmp.setNext(node);
+
+        }
+    }
+    public void deleteFirst(){
+        if(head==null){
+            System.out.println("List is empty");
+        }
+        else{
+            head = head.getNext();
+        }
+    }
+    public void deleteLast(){
+        if(head==null){
+            System.out.println("List is empty");
+        }
+        else if(this.size() == 1){
+            head = null;
+        }
+        else{
+            Node temp=head,second_last=null;
+            while(temp.getNext() != null){
+                second_last = temp;
+                temp = temp.getNext();
+            }
+            second_last.setNext(null);
+        }
     }
     public void show(){
         if(head==null){
@@ -55,8 +95,6 @@ public class SingleLinkedList {
                 count += 1;
                 tmp = tmp.getNext();
             }
-
-
             return count;
         }
     }
