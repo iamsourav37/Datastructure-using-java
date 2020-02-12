@@ -25,7 +25,7 @@ public class SingleLinkedList {
     public void insertAt(int index,int data){
 
         if(index>this.size()+1 || index<0){
-            System.out.println("Out of range");
+            System.out.println("Insertion is not possible, index is out of range");
         }
         else if(index==1){
             Node node = new Node();
@@ -72,6 +72,23 @@ public class SingleLinkedList {
             }
             second_last.setNext(null);
         }
+    }
+    public void deleteAt(int index){
+
+        if(index<0 || index>this.size())
+            System.out.println("Delete is not possible, index is out of range");
+        else if(index==1)
+            this.deleteFirst();
+        else if(index==this.size()){
+            this.deleteLast();
+        }
+        else{
+            Node tmp = head;
+            for (int i=1;i<index-1;i++)
+                tmp = tmp.getNext();
+            tmp.setNext(tmp.getNext().getNext());
+        }
+
     }
     public void show(){
         if(head==null){
