@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b2b2a4-5e74-4060-ace7-5ddb71c38772" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/list/linked/doubly/DoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/linked/doubly/Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list/linked/doubly/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/linked/doubly/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/linked/doubly/DoublyLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/list/linked/doubly/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/list/linked/doubly/Runner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,30 +82,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="69" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581511389614" />
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom" timestamp="1581522733910">
+    <state width="1491" height="267" key="GridCell.Tab.0.bottom" timestamp="1581571208149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581522733910" />
-    <state width="1493" height="268" key="GridCell.Tab.0.center" timestamp="1581522733909">
+    <state width="1491" height="267" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581571208149" />
+    <state width="1491" height="267" key="GridCell.Tab.0.center" timestamp="1581571208148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581522733909" />
-    <state width="1493" height="268" key="GridCell.Tab.0.left" timestamp="1581522733909">
+    <state width="1491" height="267" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581571208148" />
+    <state width="1491" height="267" key="GridCell.Tab.0.left" timestamp="1581571208148">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581522733909" />
-    <state width="1493" height="268" key="GridCell.Tab.0.right" timestamp="1581522733910">
+    <state width="1491" height="267" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581571208148" />
+    <state width="1491" height="267" key="GridCell.Tab.0.right" timestamp="1581571208149">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="268" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581522733910" />
+    <state width="1491" height="267" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581571208149" />
     <state x="276" y="53" key="SettingsEditor" timestamp="1581511643399">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="276" y="53" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581511643399" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1581517379315">
+    <state x="425" y="187" key="run.anything.popup" timestamp="1581571126870">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581517379315" />
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581571126870" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581513059499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

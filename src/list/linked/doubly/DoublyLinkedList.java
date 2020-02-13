@@ -30,6 +30,30 @@ public class DoublyLinkedList {
         }
 
     }
+    public void insertAt(int index,int data){
+        if(index>this.size() || index<0)
+            System.out.println("Index is out of range");
+        else if(index==1)
+            this.insertFirst(data);
+        else if(index==this.size()+1)
+            this.insertLast(data);
+        else{
+            Node node = new Node();
+            node.data = data;
+            Node tmp = head;
+            for(int i=1;i<index-1;i++)
+                tmp = tmp.next;
+
+            node.next = tmp.next;
+            tmp.next.prev = node;
+            node.prev = tmp;
+            tmp.next = node;
+
+
+        }
+
+
+    }
 
     public void show(){
         if(head==null)

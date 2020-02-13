@@ -10,6 +10,8 @@ public class Runner {
 
          list.insertFirst(33);
 
+         list.insertAt(2,2222);
+         list.insertAt(4,444);
 
          list.show();
 
