@@ -13,6 +13,10 @@ public class Runner {
          list.insertAt(2,2222);
          list.insertAt(4,444);
 
+         list.insertAt(1,1111);
+         list.insertAt(8,8898);
+
+
          list.show();
 
         System.out.println("Total node in Doubly Linked List is : "+list.size());
