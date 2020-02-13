@@ -48,7 +48,13 @@ public class DStack {
         else{
             int poped_data = this.stack_array[top];
             this.top--;
-            if(this.capacity==1){ /*nothing to do, Finally fixed the bug */ }
+            if(this.capacity==1){
+                /*
+                         nothing to do, Finally fixed the bug
+                         if the value of capacity is 1 then we dont want to call the shrink function
+                         because shrink function delete the stack array
+                 */
+            }
             else if(top+1==capacity/2){
                 this.shrink();
             }
