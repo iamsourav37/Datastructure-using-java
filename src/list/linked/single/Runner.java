@@ -1,3 +1,5 @@
+package list.linked.single;
+
 public class Runner {
     public static void main(String[] args) {
         SingleLinkedList list = new SingleLinkedList();
