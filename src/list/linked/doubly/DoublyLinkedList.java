@@ -48,6 +48,63 @@ public class DoublyLinkedList {
             tmp.next = node;
         }
     }
+    public void deleetFirst(){
+        if(head==null)
+            System.out.println("List is empty");
+        else{
+            head = head.next;
+            head.prev = null;
+        }
+    }
+    public void deleteLast(){
+        if(head==null)
+            System.out.println("List is empty");
+        else if(this.size() == 1)
+            head = null;
+        else{
+           Node tmp = head;
+           while(tmp.next != null)
+               tmp = tmp.next;
+           tmp.prev.next = null;
+           tmp.prev = null;
+
+        }
+    }
+    public void deleetAt(int index){
+        if(head==null)
+            System.out.println("List is empty");
+        else if(index == 1)
+            this.deleetFirst();
+        else if(index == this.size())
+            this.deleteLast();
+        else if(index >this.size() || index<0)
+            System.out.println("Index value is out of range");
+        else{
+            Node tmp = head;
+            for(int i=1; i<index-1; i++)
+                tmp = tmp.next;
+            tmp.next = tmp.next.next;
+            tmp.next.prev = tmp;
+        }
+    }
+    public void search(int data){
+        if(head==null){
+            System.out.println("List is empty");
+        }
+        else{
+            Node tmp = head;
+            int index = 1;
+            while(tmp != null){
+                if(tmp.data == data){
+                    System.out.println(data+" is there in the list, "+index+" position");
+                    return;
+                }
+                index++;
+                tmp = tmp.next;
+            }
+            System.out.println(data+" is not present in the list");
+        }
+    }
 
     public void show(){
         if(head==null)
