@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="92b2b2a4-5e74-4060-ace7-5ddb71c38772" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/array/stack/LStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/stack/LStackRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/stack/LinkedStack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/stack/DStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/stack/DStack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +37,22 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Application.DStackRunner">
+  <component name="RunManager" selected="Application.LStackRunner">
     <configuration name="DStackRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.stack.DStackRunner" />
+      <module name="New folder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LStackRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.stack.LStackRunner" />
       <module name="New folder" />
       <extension name="coverage">
         <pattern>
@@ -84,6 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LStackRunner" />
         <item itemvalue="Application.DStackRunner" />
         <item itemvalue="Application.Runner (2)" />
         <item itemvalue="Application.Runner" />
@@ -109,30 +125,30 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="360" y="69" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1581511389614" />
-    <state width="1491" height="371" key="GridCell.Tab.0.bottom" timestamp="1581612442258">
+    <state width="1491" height="381" key="GridCell.Tab.0.bottom" timestamp="1581686497667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="371" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581612442258" />
-    <state width="1491" height="371" key="GridCell.Tab.0.center" timestamp="1581612442258">
+    <state width="1491" height="381" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581686497667" />
+    <state width="1491" height="381" key="GridCell.Tab.0.center" timestamp="1581686497667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="371" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581612442258" />
-    <state width="1491" height="371" key="GridCell.Tab.0.left" timestamp="1581612442257">
+    <state width="1491" height="381" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581686497667" />
+    <state width="1491" height="381" key="GridCell.Tab.0.left" timestamp="1581686497667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="371" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581612442257" />
-    <state width="1491" height="371" key="GridCell.Tab.0.right" timestamp="1581612442258">
+    <state width="1491" height="381" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581686497667" />
+    <state width="1491" height="381" key="GridCell.Tab.0.right" timestamp="1581686497667">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1491" height="371" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581612442258" />
+    <state width="1491" height="381" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581686497667" />
     <state x="276" y="53" key="SettingsEditor" timestamp="1581573529077">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="276" y="53" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1581573529077" />
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1581612377718">
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup" timestamp="1581686499063">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581612377718" />
+    <state x="425" y="187" width="672" height="677" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1581686499063" />
     <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1581513059499">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
