@@ -1,6 +1,6 @@
 package array.stack;
 
-public class Stack {
+class StackArray {
     private int size = 8;
     private int top = -1;
     private int stack_array[] = new int[size];

@@ -1,8 +1,8 @@
 package array.stack;
 
-public class Runner {
+public class StackArrayRunner {
     public static void main(String[] args) {
-        Stack stack = new Stack();
+        StackArray stack = new StackArray();
 
         stack.push(12);
         stack.push(8);
@@ -17,6 +17,7 @@ public class Runner {
         System.out.println("Peek element is : "+stack.peek());
 
         stack.show();
+        stack.pop();
         stack.pop();
         stack.pop();
         stack.pop();
