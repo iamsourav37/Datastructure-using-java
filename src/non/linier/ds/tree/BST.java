@@ -46,5 +46,34 @@ public class BST {
         return root;
     }
 
+    public BinarySearchTreeNode delete(BinarySearchTreeNode root, int data){
+        if(root==null)
+            System.out.println("No such element");
+        else if(data < root.getData())
+            root.setLeft(delete(root.getLeft(),data));
+        else if(data > root.getData() )
+            root.setRight(delete(root.getRight(),data));
+        else{ // element found
+
+            if( root.getLeft() != null && root.getRight() != null ){
+                // Both the child element exists
+                BinarySearchTreeNode tmp;
+                tmp = this.findMaximum(root.getLeft());
+                root.setData(tmp.getData());
+                root.setLeft(this.delete(root.getLeft(),root.getData()));
+            }
+            else{ // Only one child or no child
+                if(root.getLeft() == null)
+                    return root.getRight();
+                else if(root.getRight() == null)
+                    return root.getLeft();
+            }
+
+
+        }// end of else
+
+        return root;
+    }
+
 
 }

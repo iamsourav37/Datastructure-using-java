@@ -11,14 +11,16 @@ public class BSTRunner {
         root = a.insert(root,16);
         root = a.insert(root,5);
         root = a.insert(root,50);
+        root = a.insert(root,414);
 
-        BinarySearchTreeNode min = a.findMinimum(root);
-        BinarySearchTreeNode max = a.findMaximum(root);
+        System.out.println(a.findMaximum(root).getData());
 
-        System.out.println("Minimum value : "+min.getData());
-        System.out.println("Maximum value : "+max.getData());
+        BinarySearchTreeNode t = a.delete(root,414);
+        System.out.println(a.findMaximum(root).getData());
+        System.out.println(t.getData());
+        System.out.println(root.getData());
 
-        System.out.println("Experiment : "+root.getLeft().getRight().getLeft().getLeft());
+
 
 
 
