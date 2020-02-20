@@ -31,6 +31,20 @@ public class BST {
             return search(root.getLeft(),data);
         return root;
     }
+    public BinarySearchTreeNode findMinimum(BinarySearchTreeNode root){
+        if(root==null)
+            return null;
+        else if(root.getLeft() != null)
+            return findMinimum(root.getLeft());
+        return root;
+    }
+    public BinarySearchTreeNode findMaximum(BinarySearchTreeNode root){
+        if(root==null)
+            return null;
+        else if(root.getRight() != null)
+            return findMaximum(root.getRight());
+        return root;
+    }
 
 
 }
