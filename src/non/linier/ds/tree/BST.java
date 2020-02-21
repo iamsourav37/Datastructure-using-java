@@ -97,4 +97,28 @@ public class BST {
         System.out.print(root.getData()+" ");
     }
 
+    public boolean isPresent(BinarySearchTreeNode root,int value){
+        if(root == null)
+            return false;
+
+        boolean isPresent = false;
+
+        while(root != null){
+
+            if(value < root.getData())
+                root = root.getLeft();
+            else if(value > root.getData())
+                root = root.getRight();
+            else{
+                isPresent = true;
+                break;
+            }
+
+
+        }
+        return isPresent;
+
+    }
+
+
 }
