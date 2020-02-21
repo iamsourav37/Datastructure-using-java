@@ -64,9 +64,9 @@ public class BST {
             }
             else{ // Only one child or no child
                 if(root.getLeft() == null)
-                    return root.getRight();
+                    root = root.getRight();
                 else if(root.getRight() == null)
-                    return root.getLeft();
+                    root = root.getLeft();
             }
 
 
