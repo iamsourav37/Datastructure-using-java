@@ -26,15 +26,16 @@ public class BSTRunner {
         System.out.println("\nPostorder travarsal : ");
         a.postOrder(root);
 
+        if(a.getParentNode(root,289) != null)
+            System.out.println("\nParent node of 289 is : "+a.getParentNode(root,289).getData());
+        else
+            System.out.println("\nParent node of 289 is does not exist");
 
-        System.out.println();
-        System.out.println("Maximum value : "+a.findMaximum(root).getData());
-        System.out.println("Minimum value : "+a.findMinimum(root).getData());
-        root = a.delete(root,1);
-        System.out.println("Value present : "+a.isPresent(root,1));
+        if(a.getParentNode(root,22) != null)
+            System.out.println("\nParent node of 22 is : "+a.getParentNode(root,22).getData());
+        else
+            System.out.println("Parent node of 22 is does not exist");
 
-        System.out.println("Maximum value : "+a.findMaximum(root).getData());
-        System.out.println("Minimum value : "+a.findMinimum(root).getData());
 
 
 

@@ -120,5 +120,25 @@ public class BST {
 
     }
 
+    public BinarySearchTreeNode getParentNode(BinarySearchTreeNode root,int data){
+        if(root == null)
+            return null;
+        BinarySearchTreeNode tmp = null;
+        while(root != null){
+            if(data < root.getData()){
+                tmp = root;
+                root = root.getLeft();
+            }
+            else if(data > root.getData()){
+                tmp = root;
+                root = root.getRight();
+            }
+            else{ // element found
+                break;
+            }
+        }
+        return root != null ? tmp : null;
+    }
+
 
 }
